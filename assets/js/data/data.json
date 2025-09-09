@@ -4,44 +4,41 @@
     "avatar": "./assets/images/me.png",
     "titles": [
       "UI UX Designer",
-      "WordPress Developer",
-      "Full Stack Developer"
+      "WordPress Developer"
     ],
     "location": "Agadir, Maroc",
     "email": "med.bakhouti@gmail.com",
     "phone": "+212715547610",
     "socials": {
-      "facebook": "https://www.google.com/",
-      "twitter": "https://www.google.com/",
-      "instagram": "https://www.google.com/"
+      "instagram": "https://www.instagram.com/med_bkhoutia/",
+      "whatsapp": "https://wa.me/+212715547610",
+      "linkedin": "www.linkedin.com/in/mohamed-amine-bkhoutia"
     }
   },
   "about": {
     "summary": [
-      "Je suis un UX/UI Designer et Développeur WordPress spécialisé dans la création de sites web sur mesure.",
-      "Mon approche allie créativité, ergonomie et expertise technique afin d’offrir des solutions digitales élégantes, accessibles et orientées conversion.",
-      "J’accompagne mes clients depuis l’idée initiale jusqu’au lancement et suivi de leur projet."
+      "Professionnel polyvalent du numérique avec 2 ans d’expérience alliant design UI/UX, développement WordPress et ingénierie full-stack. Capable de gérer l’ensemble du cycle de vie d’un projet — de la recherche utilisateur et la conception de maquettes haute fidélité sur Figma, jusqu’au développement et à la personnalisation de thèmes et plugins WordPress. Mon expertise croisée en design et développement me permet de livrer des solutions digitales à la fois esthétiques, intuitives et techniquement solides, tout en garantissant évolutivité, performance et optimisation SEO."
     ]
   },
   "services": [
     {
       "title": "Web Design",
-      "description": "Creating modern, user-friendly interfaces with a focus on accessibility and conversion.",
+      "description": "Des interfaces modernes et ergonomiques, alliant esthétique et expérience utilisateur.",
       "icon": "./assets/images/icons/036-ui design.svg"
     },
     {
       "title": "SEO & Web Performance",
-      "description": "Optimizing websites for speed, search ranking, and better user engagement.",
+      "description": "Des sites rapides, bien référencés et fluides pour une navigation optimale.",
       "icon": "./assets/images/icons/029-web traffic.svg"
     },
     {
       "title": "CMS Development",
-      "description": "Building custom WordPress themes & plugins that are secure and easy to manage.",
+      "description": "Thèmes et plugins WordPress sur mesure, adaptés à vos besoins.",
       "icon": "./assets/images/icons/040-landing page.svg"
     },
     {
       "title": "Full Stack Development",
-      "description": "Developing scalable web apps with clean, secure, and optimized code.",
+      "description": "Des solutions web complètes, du design front-end à la logique back-end.",
       "icon": "./assets/images/icons/044-coding.svg"
     }
   ],
@@ -136,37 +133,47 @@
     {
       "title": "Finance",
       "category": "CMS development",
-      "image": "./assets/images/myproject1.webp"
+      "image": "./assets/images/myproject1.webp",
+      "link": "https://example.com/finance"
     },
     {
       "title": "Orizon",
       "category": "CMS development",
-      "image": "./assets/images/project-2.png"
+      "image": "./assets/images/project-2.png",
+      "link": "https://example.com/orizon"
     },
     {
       "title": "Fundo",
       "category": "Web design",
-      "image": "./assets/images/project-3.jpg"
+      "image": "./assets/images/project-3.jpg",
+      "link": "https://example.com/fundo"
     },
     {
       "title": "DSM.",
       "category": "Web design",
-      "image": "./assets/images/project-5.png"
+      "image": "./assets/images/project-5.png",
+      "link": "https://example.com/dsm"
     },
     {
       "title": "MetaSpark",
       "category": "Web design",
-      "image": "./assets/images/project-6.png"
+      "image": "./assets/images/project-6.png",
+      "link": "https://example.com/metaspark"
     },
     {
       "title": "Summary",
       "category": "CMS development",
-      "image": "./assets/images/project-7.png"
+      "image": "./assets/images/project-7.png",
+      "link": "https://example.com/summary"
     },
     {
       "title": "Arrival",
-      "category": ["CMS development", "Web design"],
-      "image": "./assets/images/project-9.png"
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/project-9.png",
+      "link": "https://example.com/arrival"
     }
   ]
 }

@@ -58,17 +58,19 @@ overlay.addEventListener("click", testimonialsModalFunc);
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");
-const selectValue = document.querySelector("[data-selecct-value]");
+const selectValue = document.querySelector("[data-select-value]"); // fixed typo here
 const filterBtn = document.querySelectorAll("[data-filter-btn]");
 
-select.addEventListener("click", function () { elementToggleFunc(this); });
+if (select) {
+  select.addEventListener("click", function () { elementToggleFunc(this); });
+}
 
 // add event in all select items
 for (let i = 0; i < selectItems.length; i++) {
   selectItems[i].addEventListener("click", function () {
 
     let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    if (selectValue) selectValue.innerText = this.innerText;
     elementToggleFunc(select);
     filterFunc(selectedValue);
 
@@ -76,9 +78,13 @@ for (let i = 0; i < selectItems.length; i++) {
 }
 
 // filter variables
-const filterItems = document.querySelectorAll("[data-filter-item]");
+// const filterItems = document.querySelectorAll("[data-filter-item]"); 
+// -> removed static capture; we'll query live inside filterFunc
 
 const filterFunc = function (selectedValue) {
+
+  // query items each time so dynamically added portfolio items (from script-api.js) are included
+  const filterItems = document.querySelectorAll("[data-filter-item]");
 
   for (let i = 0; i < filterItems.length; i++) {
 
@@ -102,7 +108,7 @@ for (let i = 0; i < filterBtn.length; i++) {
   filterBtn[i].addEventListener("click", function () {
 
     let selectedValue = this.innerText.toLowerCase();
-    selectValue.innerText = this.innerText;
+    if (selectValue) selectValue.innerText = this.innerText;
     filterFunc(selectedValue);
 
     lastClickedBtn.classList.remove("active");
@@ -134,7 +140,30 @@ for (let i = 0; i < formInputs.length; i++) {
   });
 }
 
+// contact form submit -> open mail client with prefilled mailto:
+if (form) {
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
+    const name = form.querySelector('input[name="fullname"]').value.trim();
+    const email = form.querySelector('input[name="email"]').value.trim();
+    const message = form.querySelector('textarea[name="message"]').value.trim();
+
+    const subject = encodeURIComponent(`Contact from website: ${name || "Visitor"}`);
+    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+
+    // opens user's email client to send the message to the requested address
+    const mailto = `mailto:med.bakhouti@gmail.com?subject=${subject}&body=${body}`;
+
+    // try to open in new tab/window; fallback to setting location
+    const opened = window.open(mailto, "_blank");
+    if (!opened) window.location.href = mailto;
+
+    // optionally reset form after attempting to open mail client
+    // form.reset();
+    // formBtn.setAttribute("disabled", "");
+  });
+}
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
