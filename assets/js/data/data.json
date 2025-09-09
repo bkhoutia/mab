@@ -1,0 +1,172 @@
+{
+  "profile": {
+    "name": "Mohamed Amine Bkhoutia",
+    "avatar": "./assets/images/me.png",
+    "titles": [
+      "UI UX Designer",
+      "WordPress Developer",
+      "Full Stack Developer"
+    ],
+    "location": "Agadir, Maroc",
+    "email": "med.bakhouti@gmail.com",
+    "phone": "+212715547610",
+    "socials": {
+      "facebook": "https://www.google.com/",
+      "twitter": "https://www.google.com/",
+      "instagram": "https://www.google.com/"
+    }
+  },
+  "about": {
+    "summary": [
+      "Je suis un UX/UI Designer et Développeur WordPress spécialisé dans la création de sites web sur mesure.",
+      "Mon approche allie créativité, ergonomie et expertise technique afin d’offrir des solutions digitales élégantes, accessibles et orientées conversion.",
+      "J’accompagne mes clients depuis l’idée initiale jusqu’au lancement et suivi de leur projet."
+    ]
+  },
+  "services": [
+    {
+      "title": "Web Design",
+      "description": "Creating modern, user-friendly interfaces with a focus on accessibility and conversion.",
+      "icon": "./assets/images/icons/036-ui design.svg"
+    },
+    {
+      "title": "SEO & Web Performance",
+      "description": "Optimizing websites for speed, search ranking, and better user engagement.",
+      "icon": "./assets/images/icons/029-web traffic.svg"
+    },
+    {
+      "title": "CMS Development",
+      "description": "Building custom WordPress themes & plugins that are secure and easy to manage.",
+      "icon": "./assets/images/icons/040-landing page.svg"
+    },
+    {
+      "title": "Full Stack Development",
+      "description": "Developing scalable web apps with clean, secure, and optimized code.",
+      "icon": "./assets/images/icons/044-coding.svg"
+    }
+  ],
+  "resume": {
+    "experience": [
+      {
+        "role": "Développeur WordPress & UX/UI Designer",
+        "company": "DevForYou",
+        "date": "Mars 2024 – Présent",
+        "details": [
+          "Création et personnalisation de sites vitrines et e-commerce avec WordPress & WooCommerce",
+          "UI/UX sur Figma : wireframes, prototypes, maquettes haute-fidélité",
+          "Développement de plugins et personnalisation PHP",
+          "Optimisation performance, accessibilité et SEO"
+        ]
+      },
+      {
+        "role": "Développeur Full Stack",
+        "company": "AgriData Consulting",
+        "date": "Avril 2023 – Mai 2023",
+        "details": [
+          "Développement plateforme avec ReactJS (front) et Laravel (back)",
+          "UI/UX sur Adobe XD & Photoshop",
+          "Base de données MySQL intégrée et optimisée"
+        ]
+      },
+      {
+        "role": "Développeur Front-end",
+        "company": "Grafimage",
+        "date": "Août 2022",
+        "details": [
+          "Site vitrine régional « Agadir Souss Massa » en HTML, CSS et JavaScript",
+          "Design responsive avec Bootstrap",
+          "Dashboards interactifs pour suivi des indicateurs"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "title": "Licence en Sécurité Informatique & Réseaux",
+        "institution": "EST Guelmim",
+        "date": "2024 — 2025"
+      },
+      {
+        "title": "Développement Digital Full Stack",
+        "institution": "ISTA NTIC Guelmim",
+        "date": "2021 — 2023"
+      },
+      {
+        "title": "Baccalauréat Science Math A",
+        "institution": "Lycée Mohamed-V Tan-Tan",
+        "date": "2018 – 2019"
+      }
+    ]
+  },
+  "skills": {
+    "Design & UX": [
+      "UI/UX Design",
+      "Wireframing & Prototyping (Figma, Adobe XD)",
+      "Design Systems & Component Libraries",
+      "User Flow & Information Architecture",
+      "Accessibility & Usability Best Practices",
+      "Conversion-Oriented Design"
+    ],
+    "Web Development": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "Tailwind CSS",
+      "React.js",
+      "PHP",
+      "Laravel",
+      "Custom WordPress Themes & Plugins",
+      "WooCommerce",
+      "ACF WordPress",
+      "API Integration & Responsive Design"
+    ],
+    "SEO & Performance": [
+      "On-Page & Technical SEO",
+      "Performance Optimization (caching, lazy loading, minification)",
+      "Accessibility (WCAG)",
+      "Analytics & Tracking (GA, Search Console)"
+    ],
+    "Tools & Workflow": [
+      "Git & GitHub",
+      "n8n Automation, ComfyUI, Relume.io",
+      "Project Management",
+      "Client Communication & Collaboration"
+    ]
+  },
+  "portfolio": [
+    {
+      "title": "Finance",
+      "category": "CMS development",
+      "image": "./assets/images/myproject1.webp"
+    },
+    {
+      "title": "Orizon",
+      "category": "CMS development",
+      "image": "./assets/images/project-2.png"
+    },
+    {
+      "title": "Fundo",
+      "category": "Web design",
+      "image": "./assets/images/project-3.jpg"
+    },
+    {
+      "title": "DSM.",
+      "category": "Web design",
+      "image": "./assets/images/project-5.png"
+    },
+    {
+      "title": "MetaSpark",
+      "category": "Web design",
+      "image": "./assets/images/project-6.png"
+    },
+    {
+      "title": "Summary",
+      "category": "CMS development",
+      "image": "./assets/images/project-7.png"
+    },
+    {
+      "title": "Arrival",
+      "category": ["CMS development", "Web design"],
+      "image": "./assets/images/project-9.png"
+    }
+  ]
+}
