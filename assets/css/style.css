@@ -562,6 +562,28 @@ main {
   margin-bottom: 15px;
 }
 
+.download-cv {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.download-cv .btn {
+  background: var(--border-gradient-onyx);
+  color: var(--white-2);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-1);
+  transition: var(--transition-1);
+}
+
+.download-cv .btn:hover{
+  font-size: 1.05rem;
+}
 
 
 /**
