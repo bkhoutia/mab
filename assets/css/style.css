@@ -1190,6 +1190,46 @@ main {
   font-weight: var(--fw-300);
 }
 
+/* Portfolio status: hide Private, blur Prochainement */
+.project-item.private {
+  display: none !important;
+  visibility: hidden;
+  aria-hidden: true;
+}
+
+.project-item.coming-soon .project-img img {
+  filter: blur(4px) saturate(0.9);
+  transform: none !important;
+}
+
+/* show a small badge and prevent navigation for coming-soon items */
+.project-item.coming-soon .project-img::after {
+  content: "Prochainement";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: var(--vegas-gold);
+  color: var(--smoky-black);
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: var(--fs-8);
+  z-index: 4;
+  font-weight: var(--fw-500);
+}
+
+/* disable clicks on coming-soon items (keeps them visible but not actionable) */
+.project-item.coming-soon > a {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.95;
+}
+
+/* ensure icon box doesn't show over blurred image (optional) */
+.project-item.coming-soon .project-item-icon-box {
+  opacity: 0 !important;
+  transform: translate(-50%, -50%) scale(0.8) !important;
+}
+
 
 
 

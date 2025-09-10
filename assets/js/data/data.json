@@ -12,7 +12,8 @@
     "socials": {
       "instagram": "https://www.instagram.com/med_bkhoutia/",
       "whatsapp": "https://wa.me/+212715547610",
-      "linkedin": "https://www.linkedin.com/in/mohamed-amine-bkhoutia/"
+      "linkedin": "https://www.linkedin.com/in/mohamed-amine-bkhoutia/",
+      "behance": "https://www.behance.net/bkhoutia"
     }
   },
   "about": {
@@ -131,49 +132,78 @@
   },
   "portfolio": [
     {
-      "title": "Finance",
-      "category": "CMS development",
-      "image": "./assets/images/myproject1.webp",
-      "link": "https://example.com/finance"
-    },
-    {
-      "title": "Orizon",
-      "category": "CMS development",
-      "image": "./assets/images/project-2.png",
-      "link": "https://example.com/orizon"
-    },
-    {
-      "title": "Fundo",
-      "category": "Web design",
-      "image": "./assets/images/project-3.jpg",
-      "link": "https://example.com/fundo"
-    },
-    {
-      "title": "DSM.",
-      "category": "Web design",
-      "image": "./assets/images/project-5.png",
-      "link": "https://example.com/dsm"
-    },
-    {
-      "title": "MetaSpark",
-      "category": "Web design",
-      "image": "./assets/images/project-6.png",
-      "link": "https://example.com/metaspark"
-    },
-    {
-      "title": "Summary",
-      "category": "CMS development",
-      "image": "./assets/images/project-7.png",
-      "link": "https://example.com/summary"
-    },
-    {
-      "title": "Arrival",
+      "title": "Southern Implants",
       "category": [
         "CMS development",
         "Web design"
       ],
-      "image": "./assets/images/project-9.png",
-      "link": "https://example.com/arrival"
+      "image": "./assets/images/Southern-Implants.webp",
+      "link": "#",
+      "status": "Prochainement"
+    },
+    {
+      "title": "SBS",
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/project-2.png",
+      "link": "#",
+      "status": "Private"
+    },
+    {
+      "title": "Asap Fermetures",
+      "category": "CMS development",
+      "image": "./assets/images/Asap-Fermetures.webp",
+      "link": "https://www.asapfermetures.fr/",
+      "status": "Public"
+    },
+    {
+      "title": "Avepa Nuisbles",
+      "category": "CMS development",
+      "image": "./assets/images/Avepa-Nuisbles.webp",
+      "link": "https://www.snapbiocide.fr/",
+      "status": "Public"
+    },
+    {
+      "title": "Avepa Assainissement",
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/Avepa-Assainissement.webp",
+      "link": "https://www.avepa-assainissement.fr/",
+      "status": "Public"
+    },
+    {
+      "title": "BRC Habitat",
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/BRC-Habitat.webp",
+      "link": "https://www.behance.net/gallery/234368375/Real-Estate-Website-UIUX-Design-Development",
+      "status": "Public"
+    },
+    {
+      "title": "octopus",
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/octopus.webp",
+      "link": "#",
+      "status": "Prochainement"
+    },
+    {
+      "title": "My Little Thailand",
+      "category": [
+        "CMS development",
+        "Web design"
+      ],
+      "image": "./assets/images/My-Little-Thailand.webp",
+      "link": "https://www.behance.net/gallery/210959141/Thailand-UI-UX-Design-for-Travelers",
+      "status": "Public"
     }
   ]
 }

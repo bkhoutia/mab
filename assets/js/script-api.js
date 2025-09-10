@@ -134,9 +134,17 @@ function loadPortfolio(portfolio) {
 
   portfolio.forEach(proj => {
     let li = document.createElement("li");
-    li.className = "project-item active";
+
+    // determine status classes
+    const status = (proj.status || "Public").toString().toLowerCase();
+    let classes = "project-item active";
+    if (status === "private") classes += " private";
+    if (status === "prochainement") classes += " coming-soon";
+
+    li.className = classes;
     li.setAttribute("data-filter-item", "");
     li.setAttribute("data-category", Array.isArray(proj.category) ? proj.category.join(" ").toLowerCase() : proj.category.toLowerCase());
+    li.setAttribute("data-status", status);
 
     li.innerHTML = `
       <a href="${proj.link || "#"}" target="_blank">
